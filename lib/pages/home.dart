@@ -11,12 +11,12 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   late String _userToDO;
   List todoList = [];
+
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
-    todoList
-        .addAll(['9:00 Проснутся', '12:00 Сломать шею гусю', '21:00 Отбой']);
+    todoList.addAll(['9:00 Проснутся', '12:00 Бегать', '21:00 Отбой']);
   }
 
   @override
